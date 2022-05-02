@@ -1,0 +1,37 @@
+.menu {
+    background-color: #00205b;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+}
+.toolbar{
+    height: 56px;
+    width: 150px;
+}
+.logo{
+    padding: 7px;
+    height:  56px;
+    
+}
+.choise{
+    justify-content: flex-end;
+   
+}
+.navbar{
+  
+    display: flex;
+    color: white;
+   list-style-type: none;
+}
+.nav-item a{
+    color: white;
+    padding: 8px;
+    margin: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#loupe{
+    margin-top: -10px;
+}
