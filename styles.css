@@ -3,6 +3,7 @@ body {
     color: #282e3a;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 
 #section-news {
@@ -198,12 +199,6 @@ body {
     text-align: center;
 }
 
-h2 {
-    /* font-size: 2rem; */
-
-
-}
-
 .buttonLink {
     margin: 10px;
     text-align: center;
@@ -255,4 +250,111 @@ h2 {
     border: 1px solid transparent;
     background-color: rgba(0, 45, 128, 0.8);
 
+}
+/* FOOTER top */
+.footer-top{
+    display: flex;
+    height: 56px;
+    background-color:#eff3f9;
+    justify-content:right;
+}
+.footer-item{
+    display: flex;
+}
+#fleche{
+    margin-top: 15px;
+}
+#back {
+   margin-top: 15px;   
+}
+#back a{
+    font-weight: bold;
+    color:#00205b ;
+    text-decoration: none;
+}
+/* FOOTER mid*/
+.footer-mid{
+    background-color: #00205b;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+ 
+}
+.footTitle{
+    margin: 5px;
+   padding-top: 20px;
+    width: 380px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footTitleSpace{
+    width: 300px;
+}
+.footTitle ul{
+    font-weight:normal;
+    list-style-type: none;
+    margin-left: -40px;
+    
+}
+.footTitle ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footTitle ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.llf img{
+    margin-bottom: -6px;
+    
+}
+.separator{
+    width: 100%;
+    background-color: #00205b;
+}
+.separator div{
+    
+    border-top: 0.5px solid #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  
+   
+}
+
+/*FOOTER-BOTTOM*/
+.footer-bottom{
+    justify-content: space-between;
+    background-color: #00205b;
+    display: flex;
+}
+.information{
+margin: 10px;
+justify-content: space-between;
+padding: 5px;
+}
+.information div a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    
+    margin-right: 10px;
+}
+.information div p{
+    margin-top: -2px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.logos{
+    margin: 10px;
+}
+.logosDouble{
+    margin-top: 10px;
+    margin-right: -20px;
 }
