@@ -714,3 +714,107 @@ h2 {
   transform: translateY(-50%);
   color: #fff;
 }
+
+/*SECTION OUR PURPOSE IN ACTION*/
+.containerAction {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.containerAction2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+
+  padding-top: 20px;
+}
+.actionTitle {
+  color: #00205b;
+  font-size: 1.9rem;
+}
+.actionService {
+  font-size: 0.7rem;
+  color: #00205b;
+  margin-top: -60px;
+  opacity: 0.8;
+}
+.actionP p {
+  font-size: 1rem;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.actionText1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 50%;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14);
+  overflow: visible;
+  padding: 20px;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.actionText2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 50%;
+  margin-top: 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14);
+  overflow: visible;
+  padding: 20px;
+  z-index: 1;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.actionIMG1 {
+  margin-left: -40px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images-airbus/H145.jpg");
+}
+.actionIMG2 {
+  margin-right: -40px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images-airbus/screen_France_StMichel_PNeo3_20211115.jpg");
+}
+.actionIMG3 {
+  margin-left: -30px;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("images-airbus/Metaverse-Challenge.jpg");
+}
+.button3 a {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: #00205b;
+  text-decoration: none;
+  border: 1px solid #002d80;
+  border-radius: 1px;
+}
+.button2 {
+  color: white;
+  background-color: #00205b;
+  padding: calc(0.5rem - 1px) 1rem;
+  font-size: 0.875rem;
+  min-width: 2rem;
+  min-height: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  border-radius: 3px;
+}
