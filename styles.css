@@ -81,7 +81,7 @@ h1 {
 .center {
     text-align: center;
 }
-
+/*navbar top*/
 .menu {
     background-color: #00205b;
     height: 57px;
@@ -130,6 +130,7 @@ h1 {
 #loupe {
     margin-top: -10px;
 }
+/* FIN navbar top*/
 
 #playerContainer {
     background-repeat: no-repeat;
@@ -153,6 +154,7 @@ h1 {
 
 #aboutus {
     position: relative;
+    width: 100%;
 
 }
 
@@ -286,7 +288,6 @@ h1 {
     background-color: transparent;
     -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
-
 }
 
 .GFG {
@@ -296,6 +297,7 @@ h1 {
     background-color: rgba(0, 45, 128, 0.8);
 
 }
+
 
 /* FOOTER top */
 .footer-top {
@@ -415,14 +417,19 @@ h1 {
 }
 
 .logos {
-    margin: 10px;
+    margin-top: 15px;
+    padding-left: -10px;
+    
 }
-
+.logosIn{
+    margin-top: 20px;
+    padding-left: -10px;
+}
 .logosDouble {
-    margin-top: 10px;
-    margin-right: -20px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
-
+/*FIN FOOTER*/
 
 #playerContainer {
     background-repeat: no-repeat;
@@ -461,7 +468,7 @@ h1 {
 
     background-color: rgba(0, 0, 0, 0.2);
     position: absolute;
-   
+    padding-left: 3em;
     top: 0;
     left: 0;
     width: 100%;
@@ -623,14 +630,12 @@ video player control button
     display: inline-block;
     padding-left: 0.5em;
 }
-
-
 /*
 */
 #containeHighlightd {
 
     padding-left: 6rem;
-    padding-right: 6rem;
+   padding-right: 6rem;
 
 }
 
