@@ -59,17 +59,29 @@
                         </button>
                     </div>
                 </div>
+                <button class="video-play-pause">
+                    <span class="video-control-pause">
+                        <span class="video-control-symbol" aria-hidden="true">
+                            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                            <i class="material-icons">pause_circle_filled</i>
+                        </span>
+                        <span class="video-control-label">Pause</span>
+                    </span>
+                    <!-- <span class="video-control-play">
+                        <span class="video-control-symbol" aria-hidden="true">
+                            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                            <i class="material-icons">play_circle_filled</i>
+                        </span>
+                        <span class="video-control-label">Play</span>
+                    </span> -->
+                </button>
             </div>
         </div>
     </section>
-    <section id="containeHighlightd">
+    <section id="containeHighlightd" class="section">
         <!-- Highlights-->
-        <div >
-             <section class="mb-5 global-cs col-12 block block-layout-builder block-inline-blockrich-text-component block-rich-text-component">
-                 <h1 class="high">Highlights</h1>
-                 <hr><p>&nbsp;</p>
-               </section>
-         </div>
+        <h1 class="high">Highlights</h1>
+        <hr><p>&nbsp;</p>
 
          <!--Image grass-->
          <div id="imagGrass">
@@ -95,8 +107,8 @@
          </div>
  </section>
     <!-- SECTION NEWS -->
-    <section id="news" class="section">
-        <h1>Featured news</h1>
+    <section class="section">
+        <h1 class="high">Featured news</h1>
         <hr>
         <p></p>
         <div class="flex-news">
@@ -104,7 +116,7 @@
                 <img src="images-airbus/red-men.jpg" alt="">
                 <div class="div-news">
                     <div class="tag">
-                        <div>Company</div>
+                        <div class="tagname">Company</div>
                         <div>27 April 2022</div>
                     </div>
                     <h2>The making of a hero</h2>
@@ -156,11 +168,13 @@
     </section>
 
     <!-- SECTION ABOUT US -->
-    <section id="" class="section">
-        <h1>About us</h1>
+    <section class="section">
+        <h1 class="high">About us</h1>
         <hr>
         <p></p>
-        <div id="aboutus">
+
+        <div class="blocAboutUs">
+            <div class="aboutus">
                 <img src="images-airbus/Environment_Airbus-Services_008 (1).jpeg" height="410px" width="100%">
                 <div class="textBloc">
                     <div class="titleBloc">
@@ -176,14 +190,13 @@
                     </div>
                 </div>
             </div>
-        </section>
-    <section class="section">
+        </div>
 
         <div class="blocflex" >
-            <div id="blocAboutUs">
-                <div id="aboutus">
-                    <img src="images-airbus/airbus-world-network.jpg" class="">
-                    <div class="textBloc">
+            <div class="blocAboutUs1">
+                <div class="aboutus">
+                    <!-- <img src="images-airbus/airbus-world-network.jpg" width="750px" height="410px"> -->
+                    <div class="textBloc2">
                         <div class="titleBloc">
                             <h4>Our worldwid presence</h4>
                         </div>
@@ -198,10 +211,10 @@
                     </div>
                 </div>
             </div>
-            <div id="blocAboutUs">
-                <div id="aboutus">
-                    <img src="images-airbus/family-flight-stagex3-big.jpg" class="">
-                    <div class="textBloc">
+            <div class="blocAboutUs2">
+                <div class="aboutus">
+                    <!-- <img src="images-airbus/family-flight-stagex3-big.jpg" width="750px" height="410px"> -->
+                    <div class="textBloc2">
                         <div class="titleBloc">
                             <h4>Our products and services</h4>
                         </div>
@@ -219,7 +232,6 @@
         </div>
     </div>
     </section>
-    <!--FOOTER-->
     <div class="footer-top">
         <div class="footer-item">
             <div id="fleche">
