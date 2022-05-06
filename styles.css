@@ -44,18 +44,34 @@ body {
   .imgNewsSize {
     width: 350px;
     height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .tag {
     display: flex;
     justify-content: space-between;
+    padding: 15px 0;
+  }
+  
+  .tagname {
+    border: 1px solid #e0e3e9;
+    padding: 3px 0.75rem;
+    border-radius: 50px;
+    background-color: #e0e3e9;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .tagdate {
+    font-size: 12px;
+    color: #707070;
   }
   
   .div-news {
-    /* padding: 20px; */
     height: 100%;
-    border: 1px solid red;
     justify-content: start;
+    padding: 10px 20px;
   }
   
   h1 {
@@ -81,6 +97,7 @@ body {
     font-weight: 700;
     line-height: 1.5rem;
     border-radius: 3px;
+    
   }
   
   .button-rev {
@@ -95,6 +112,7 @@ body {
     line-height: 1.5rem;
     border-radius: 3px;
     justify-content: center;
+    margin-top: 50px;
   }
   
   .center {
